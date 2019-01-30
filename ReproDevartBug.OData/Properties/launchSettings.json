@@ -1,0 +1,30 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:43503",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+   "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "odata/Youths?$orderby=JjisNumber&$top=1&$select=JjisNumber",
+      "environmentVariables": {
+         "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+   },
+   "ReproDevartBug.OData": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "odata/Youths?$orderby=JjisNumber&$top=1&$select=JjisNumber",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+         "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+   }
+  }
+}
