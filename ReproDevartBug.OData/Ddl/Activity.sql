@@ -1,0 +1,6 @@
+﻿CREATE TABLE OYA.ACTIVITY
+(
+  ACTIVITY_ID        NUMBER         NOT NULL,
+  NOTES_TEXT         LONG
+);
+

@@ -54,7 +54,8 @@ namespace ReproDevartBug.OData
             app.UseDeveloperExceptionPage();
          }
          var odataBuilder = new ODataConventionModelBuilder();
-         odataBuilder.EntitySet<Youth>("Youths");
+         odataBuilder.EntitySet<Youth>(nameof(CoreEntities.Youths));
+         odataBuilder.EntitySet<Activity>(nameof(CoreEntities.Activities));
          var model = odataBuilder.GetEdmModel();
 
          app.UseMvc(builder =>

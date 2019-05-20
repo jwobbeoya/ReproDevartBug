@@ -10,5 +10,7 @@ namespace ReproDevartBug.OData.DataModel
       }
 
       public virtual DbSet<Youth> Youths { get; set; }
+
+      public virtual DbSet<Activity> Activities{ get; set; }
    }
 }
